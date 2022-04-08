@@ -1,0 +1,25 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block content %} 
+<head>
+    <link rel= "stylesheet" href = "{% static 'css/register_style.css' %}">
+</head>
+   <div class="register-page">
+
+    <div class="form">
+      <form class="register-form" method="POST" action="">
+        {% csrf_token %}
+        <h2 class="register-title">REGISTER</h2>
+        <h4>Username: {{form.username}}</h4>
+        <h4>Password: {{form.password1}}</h4>
+        <h4>Pasword2: {{form.password2}}</h4>
+        
+        <button type="submit" class = "button_reg"> register </button>
+                </form>
+        {{ form.errors }}
+    </div>
+
+  </div>
+    
+{% endblock content %}

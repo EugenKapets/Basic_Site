@@ -1,0 +1,20 @@
+{% extends "base.html" %}
+{% load static %}
+{% block content %} 
+<head>
+    <link rel= "stylesheet" href = "{% static 'css/blogcr.css' %}">
+</head>
+
+<form method="post">
+    {% csrf_token %}
+    <div class = "titletask">
+        <h1>Create Blog</h1>
+        <div class="title" >{{form.title}}</div><br>
+        <div class="task">{{form.task}}</div><br>
+        <button type="sumbit" class = "postbuton" >post blog</button>
+        <span>{{ error }}</span>
+    </div>
+    
+</form>
+
+{% endblock content %}

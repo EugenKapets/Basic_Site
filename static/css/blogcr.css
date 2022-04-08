@@ -1,0 +1,42 @@
+.title{
+    padding-left: 17px;
+    border-radius: 100px;
+}
+textarea{
+    padding-left: 17px;
+    width: 91%;
+    height: 200px;
+    resize: none;
+    border-radius: 3px;
+}
+.task{
+    padding-left: 17px;
+    padding-right: 13px;
+}
+input{
+    width: 91%;
+    height: 20px;
+    border-radius: 3px;
+    
+}
+h1{
+    margin-left: 62px;
+    text-shadow: rgb(136, 228, 230) 0px 0px 10px;
+    color: rgb(11, 82, 180) 
+}
+.titletask{
+    margin: 1% auto;
+    margin-right: auto; margin-left: auto; width: 21%;
+    background-color: rgb(76, 93, 239);
+    border-radius: 5px;
+    border: 2px outset black;
+    
+}
+button{
+    height: 20px;
+    width: 100px;
+    margin-left: 100px;
+    margin-bottom: 20px;
+    background-color: rgb(131, 131, 254);
+    border-radius: 5px;
+}

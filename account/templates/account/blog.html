@@ -1,0 +1,23 @@
+{% extends "base.html" %}
+{% load static %}
+{% block content %} 
+<head>
+    <link rel= "stylesheet" href = "{% static 'css/blogstyle.css' %}">
+</head>
+{%if tasks%}
+    {% for el in tasks %}
+    <ul>
+        <a class="title">{{ el.title }} </a><br>
+        <a class="task">{{ el.task }}</a>
+    </ul>
+
+    {%endfor%}
+{% else %}
+    <h1>No one blogs</h1>
+{%endif%}
+<form action="blog_create" target="_blank">
+<button type="submit" class = "button_create"> Create Blog </button>
+</form>
+
+
+{% endblock content %}

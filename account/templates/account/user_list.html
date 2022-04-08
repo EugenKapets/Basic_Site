@@ -1,0 +1,19 @@
+{% extends "base.html" %}
+{% load static %}
+
+
+{% block content %}  
+ <link rel= "stylesheet" href = "{% static 'css/show_style.css' %}">
+ <h1> List of all users in site</h1>
+{%for all_users in allusers%}
+<ul class = "listt">   
+  {%if all_users.is_superuser %} 
+  <li>{{all_users}} - Its admin</li>
+  {%else%}
+  <li>{{all_users}}</li>
+  {%endif%}
+</ul>
+{%endfor%}
+
+{% endblock content %}
+

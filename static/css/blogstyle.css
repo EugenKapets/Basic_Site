@@ -1,0 +1,24 @@
+.title{
+    background-color: rgb(167, 81, 237);
+    border-radius: 5px;
+    line-height: 10px;
+    font-size: 25px;
+    font-weight: bold;
+    padding-left: 10px;
+    padding-right: 100px;
+}
+.task{
+    background-color: rgb(179, 104, 250);
+    border-radius: 2px;
+    padding-left: 10px;
+    padding-right: 100px;
+    hyphens: 10;
+    word-wrap: break-all;
+}
+.button_create{
+    margin-left: 40px;
+    font-size: 120%;
+    background-color: rgb(188, 125, 246);
+    border-radius: 6px;
+    
+}

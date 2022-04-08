@@ -1,0 +1,76 @@
+body {
+	position: relative;
+	font-family: 'Noto Sans', sans-serif;
+	font-size: 16px;
+	line-height: 1.4;
+	color: rgb(0, 0, 0);
+	min-width: 320px;
+	overflow-x: hidden;
+	height: auto;
+    background: rebeccapurple;
+
+}
+.navbar {
+    width: 100%;
+    height: 65px;
+    background-color: rgb(127, 45, 242);
+    box-shadow: 0 4px 10px rgb(0, 0, 0);
+}
+.navbar .container{
+    height: inherit;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar-menu {
+    list-style-type: none;
+    padding-left: 0;
+    margin-bottom: 0;
+    
+}
+
+.navbar-menu li{
+    display: inline-block;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.navbar-menu li{
+    display: inline-block;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: large;
+    font-weight: bold;
+
+}
+.navbar-menu li a{
+    display: inline-block;
+    color: rgb(0, 0, 0);
+    opacity: 0.6;
+    font-size: 130%;
+    text-decoration: none;
+}
+.navbar-wrap {
+    display: flex;
+    flex-flow: row nowrap;
+}
+.homepage {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 220%;
+    padding-left: 4%;
+    text-shadow:  2px 4px 10px rgb(255, 255, 255) ;
+    
+    
+
+}
+.navbar-menu li a:hover{
+    opacity: 1;
+}
+.homepage:hover{
+   color: white; 
+}
+
+
+
